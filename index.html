@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/53f82c4cf0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="cointainer">
+            <nav> 
+                <img src="images/images (11).jpeg" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Jerry</span><br>Lokoroi From Kenya</h1>
+            </div> 
+        </div>
+    </div>
+    <!---- -------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/jerry.JPG" alt="jerry">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>
+                        I am a proficient front-end web developer with a strong foundation in HTML5, CSS3, and JavaScript. I leverage these skills to create visually stunning and interactive user interfaces that captivate and engage audiences. My expertise extends to using Bootstrap 5 for responsive and rapid design implementation, ensuring a seamless experience across various devices. With a deep understanding of WordPress, I bring dynamic content management to projects, while my proficiency in crafting e-commerce websites underscores my ability to deliver comprehensive online shopping solutions that merge aesthetics with functionality.                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML5</span><br>Proficient in designing modern and user-friendly web interfaces using HTML5.</li>
+                            <li><span>CSS3</span><br>Skilled in applying CSS3 for responsive and visually appealing designs.</li>
+                            <li><span>JAVASCRIPT</span><br>Proficient in using JavaScript to add interactivity and functionality to websites.</li>
+                            <li><span>BOOTSTRAP5</span><br>Familiar with Bootstrap 5 for rapid and responsive front-end development.</li>
+                            <li><span>WORDPRESS</span><br>Proficient in crafting seamless web interfaces through WordPress.</li>
+                            <li><span>E-COMMERCE WEBSITE</span><br>Skilled in creating e-commerce websites for online shopping solutions.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>NOV 2022</span>PRESENT<br>Web Developer Freelancer</li>
+                            <li><span>OCT 2022</span>PRESENT<br>Trainner/Couch at Learning Lions Organisation</li>
+                            <li><span>JAN 2023</span>PRESENT<br>System Administrator at Learning Lions Organisation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>FEB 2022 - Apr 2022</span><br>Basic Graphic Design & Web Development at Learning Lions Campus</li>
+                            <li><span>JULY 2022 - Sep 2022</span><br>Web Development Bootcamp at Learning Lions Campus</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---- -------services------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">
+                My Services
+            </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Website Development</h2>
+                    <p>Create and build websites from scratch using HTML, CSS, Bootstrap & JavaScript, ensuring a responsive design and optimal user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-wordpress"></i>
+                    <h2>WordPress Website Development</h2>
+                    <p>Offering expert WordPress website development to bring your unique online vision to life with stunning designs, seamless functionality, and user-friendly management.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h2>E-commerce Website</h2>
+                    <p>Create online stores and shopping platforms, integrating payment gateways, product catalogs, and user management systems.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h2>Search Engine Optimization (SEO)</h2>
+                    <p>Implement techniques to improve a website's visibility in search engine results, driving organic traffic and improving online presence.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Hosting and Domain Setup</h2>
+                    <p>Assist clients in selecting suitable hosting services, configuring domains, and deploying websites to live servers.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>Website Maintenance and Updates</h2>
+                    <p>Provide ongoing support to keep websites up-to-date, secure, and functional, including regular content updates and software patches.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!---- -------portfolio/work------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                My Work
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you yo the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!---- -------contact------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Get In Touch</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> jerrylokoroi@gmail.com</p> 
+                    <p> <i class="fa-solid fa-square-phone"></i> 0796651983</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © jerrylokoroi.com</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
