@@ -18,7 +18,7 @@ body{
     
 }
 .cointainer{
-    padding: 10px 10%;
+    padding: 10px 10%; 
 }
 nav{
     display: flex;
@@ -92,7 +92,8 @@ color: #ababab;
     font-size: 60px;
     font-weight: 600px;
     color: #fff;
-
+    text-align: center;
+    margin: 40px;
 
 }
 .tab-titles{
