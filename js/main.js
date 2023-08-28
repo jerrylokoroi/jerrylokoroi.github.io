@@ -12,15 +12,20 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab");
 } 
 
-document.getElementById("submit-button").addEventListener("click", function() {
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
-
-    var subject = encodeURIComponent("Contact Form Submission from " + name);
-    var body = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message);
-
-    var mailtoLink = "mailto:jerry.ekuwom@learninglions.org?subject=" + subject + "&body=" + body;
-
-    window.location.href = mailtoLink;
-});
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contact-form');
+    const submitButton = document.getElementById('submit-button');
+  
+    submitButton.addEventListener('click', function() {
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+  
+      const subject = encodeURIComponent('Contact Form Submission');
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+  
+      const mailtoLink = `mailto:jerry.ekuwom@learninglions.org?subject=${subject}&body=${body}`;
+  
+      window.open(mailtoLink);
+    });
+  });
