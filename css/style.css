@@ -27,8 +27,7 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 120px;
-
+    width: 200px;
 }
 
 nav ul li{
@@ -46,7 +45,16 @@ nav ul li a::after{
 content: '';
 width: 0;
 height: 3px;
-background: #ff004f;
+background: #149414;
+left: 0;
+bottom: -6px;
+position: absolute;
+transition: 0.5s;
+
+content: '';
+width: 0;
+height: 3px;
+background: #149414;
 left: 0;
 bottom: -6px;
 position: absolute;
@@ -64,14 +72,14 @@ nav ul li a:hover::after{
     font-size: 60px;
 }
 .header-text h1 span{
-    color:#ff004f;
+    color:#149414;
 }
 
 /* about */
 
 #about{
 padding: 80px 80px;
-color: #ababab;
+color: #fff;
 }
 .row{
     display: flex;
@@ -112,7 +120,7 @@ color: #ababab;
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #149414;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -127,7 +135,7 @@ color: #ababab;
     
 }
 .tab-contents ul li span{
-     color: #b54769;
+     color: #149414;
      font-size: 14px;
 }
 .tab-contents {
@@ -173,7 +181,7 @@ color: #ababab;
     display: inline-block;
 }
 .services-list div:hover{
-    background: #ff004f;
+    background: #149414;
     transform: translateY(-10px);
 }
 
@@ -201,7 +209,7 @@ color: #ababab;
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #149414);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -222,7 +230,7 @@ color: #ababab;
 }
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #149414;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -242,7 +250,7 @@ color: #ababab;
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #149414;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -250,7 +258,7 @@ color: #ababab;
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
+    background: #149414;
 }
 
 /* portfolio/work */
@@ -265,7 +273,7 @@ color: #ababab;
 
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #149414;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -276,17 +284,17 @@ color: #ababab;
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #fff;
     display: inline-block;
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #ff004f;
+    color: #149414;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #149414;
 }
 .contact-right form{
     width: 100%;
