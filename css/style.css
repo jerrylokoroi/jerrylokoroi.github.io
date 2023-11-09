@@ -11,7 +11,7 @@ body{
 #header{
     width: 100%;
     height: 120vh;
-    background-image: url("/images/jerrybackground-removebg-preview_.png");
+    background-image: url("/images/jerrybackground-removebg-preview.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ color: #fff;
 .sub-title{
     font-size: 60px;
     font-weight: 600px;
-    color: #fff;
+    color:#149414;
     text-align: center;
     margin: 40px;
 
@@ -323,6 +323,7 @@ form .btn2{
     background: #262626;
     font-weight: 300;
     margin-top: 20px;
+    color: #fff;
 }
 
 
